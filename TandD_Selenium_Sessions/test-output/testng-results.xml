@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-16T19:50:42 IST" name="Suite" finished-at="2026-04-16T19:50:55 IST" duration-ms="12024">
+    <groups>
+    </groups>
+    <test started-at="2026-04-16T19:50:42 IST" name="Test" finished-at="2026-04-16T19:50:55 IST" duration-ms="12024">
+      <class name="TandD_HandsOn.HandsonTwo">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TandD_HandsOn.HandsonTwo@6b2ea799]" started-at="2026-04-16T19:50:43 IST" name="browserSetUp" finished-at="2026-04-16T19:50:46 IST" duration-ms="3923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="yearWiseEMI()[pri:0, instance:TandD_HandsOn.HandsonTwo@6b2ea799]" started-at="2026-04-16T19:50:46 IST" name="yearWiseEMI" finished-at="2026-04-16T19:50:54 IST" duration-ms="8036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearWiseEMI -->
+      </class> <!-- TandD_HandsOn.HandsonTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
