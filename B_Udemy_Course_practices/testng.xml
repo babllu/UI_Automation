@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Loan">
+	<parameter name="URL" value="personalloan.com"/>
+		<classes>
+		 
+		    <class name="rahulShettyAcademy_TestNG.day2">
+				<methods>
+					<include name="Demo" />
+				</methods>
+				</class>
+		</classes>
+	</test>
+	<test name="Car Loan">
+		<parameter name="URL" value="carloan.com" />
+		<parameter name="APIKey/usrname" value="123456" />
+		<classes>
+			<class name="rahulShettyAcademy_TestNG.day3">
+				<methods>
+					<exclude name="API.*" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+</suite> 
